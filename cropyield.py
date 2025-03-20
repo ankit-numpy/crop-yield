@@ -21,7 +21,7 @@ def get_base64_image(image_path):
         return base64.b64encode(f.read()).decode()
 
 # Absolute path to Background image
-bg_image_path = r"D:\Aman\Projects\Python\Yield Prediction\agriculture.avif"
+bg_image_path = r"./agriculture.avif"
 
 # Get the base64 encoded image
 encoded_image = get_base64_image(bg_image_path)
